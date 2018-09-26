@@ -10,6 +10,6 @@ Some notes about the book Clean Code - Bob Martin
 
 * Write the name of the arguments in the function in the same declaration order
 
-´´´
+java```
 public void sendMessageToTopic(String message, String topic) { ... }
-```
+´´´
