@@ -34,6 +34,6 @@ public void sendMessageToTopic(String message, String topic) { ... }
 * Avoid bad comments, TODO comments and redundant comments
 
 ```java
- \\ TODO: Remove this comment
+ // TODO: Remove this comment
 ```
 * Few practices are as odious as commenting-out code
