@@ -5,23 +5,16 @@ Some notes about the book Clean Code - Bob Martin
 ## Meaningful Names
 
 * Apply meaningful distinctions
-
 * Use pronounceable/researchable names and avoid encodings
-
 * Use solution/problem domain names
 
 ## Functions 
 
 * Main rule: Functions should do one thing. They should do it well. They should do it only.
-
 * Use descriptive names
-
 * Choose the verb/noum pair to name of functions
-
 * Preference to use no-args functions or funcitons with one or two arguments (three only if really necessary)
-
 * Write the name of the arguments in the function in the same declaration order
-
 ```java
 public void sendMessageToTopic(String message, String topic) { ... }
 ```
@@ -30,10 +23,15 @@ public void sendMessageToTopic(String message, String topic) { ... }
 ## Comments 
 
 * Comments are always failures 
-
 * Avoid bad comments, TODO comments and redundant comments
-
 ```java
  // TODO: Remove this comment
 ```
 * Few practices are as odious as commenting-out code
+
+## Formatting 
+
+* First of all, let's be clear
+* Code formatting is about communication
+* Vertical formatting, the newspaper mataphor
+* The "thoughts" are separated from each other with blank lines
