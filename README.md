@@ -35,3 +35,4 @@ public void sendMessageToTopic(String message, String topic) { ... }
 * Code formatting is about communication
 * Vertical formatting, the newspaper mataphor
 * The "thoughts" are separated from each other with blank lines
+* Vertical Density: Implies close association. If one function calls another, they should be vertically close
