@@ -95,7 +95,7 @@ Fast, Independent, Repeatable, Self-Validating, Timely
 
 ## Classes
 
-###Class Organization
+### Class Organization
 
 #### A class should begin with a list of variables.
 * Public static constants, if any, should come first. 
