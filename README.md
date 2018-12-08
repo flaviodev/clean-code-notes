@@ -93,3 +93,14 @@ Fast, Independent, Repeatable, Self-Validating, Timely
  - Invent testing APIs that act as domain-specific language that helps you write the tests. 
 * One Assert per Test
 
+## Classes
+
+###Class Organization
+
+#### A class should begin with a list of variables.
+* Public static constants, if any, should come first. 
+* Then private static variables, followed by private instance variables. 
+* There is seldom a good reason to have a public variable.
+* Public functions should follow the list of variables. 
+* We like to put the private utilities called by a public function right after the public function itself. 
+* This follows the stepdown rule and helps the program read like a newspaper article.
