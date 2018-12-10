@@ -103,4 +103,8 @@ Fast, Independent, Repeatable, Self-Validating, Timely
 * There is seldom a good reason to have a public variable.
 * Public functions should follow the list of variables. 
 * We like to put the private utilities called by a public function right after the public function itself. 
-* This follows the stepdown rule and helps the program read like a newspaper article.
+#### Encapsulation
+* If a test in the same package needs to call a function or access a variable, we’ll make it protected or package scope. However, we’ll first look for a way to maintain privacy. Loosening encapsulation is always a last resort.
+#### Classes should be small
+* With functions we measured size by counting physical lines. With classes we use a different measure. We count responsibilities. 
+* The more ambiguous the class name, the more likely it has too many responsibilities. For example, class names including weasel words like Processor or Manager or Super often hint at unfortunate aggregation of responsibilities.
