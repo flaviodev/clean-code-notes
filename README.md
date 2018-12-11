@@ -108,3 +108,11 @@ Fast, Independent, Repeatable, Self-Validating, Timely
 #### Classes should be small
 * With functions we measured size by counting physical lines. With classes we use a different measure. We count responsibilities. 
 * The more ambiguous the class name, the more likely it has too many responsibilities. For example, class names including weasel words like Processor or Manager or Super often hint at unfortunate aggregation of responsibilities.
+* We should also be able to write a brief description of the class in about 25 words, without using the words “if,” “and,” “or,” or “but.”
+* Single Responsibility Principle: Classes should have one responsibility — one reason to change.
+* Yet oddly, Single Resposability Pinciple is often the most abused class design principle.
+* Cohesion: When cohesion is high, it means that the methods and variables of the class are co-dependent and hang together as a logical whole.
+* Breaking large functions and breanking large classes: So breaking a large function into many smaller functions often gives us the opportunity to split several smaller classes out as well. This gives our program a much better organization and a more transparent structure.
+* Open-Closed Principle: Classes should be open for extension but closed for modification.
+* Isolating from change: By minimizing coupling in this way, our classes adhere to another class design principle known as the Dependency Inversion Principle (DIP)
+
