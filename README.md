@@ -116,3 +116,22 @@ Fast, Independent, Repeatable, Self-Validating, Timely
 * Open-Closed Principle: Classes should be open for extension but closed for modification.
 * Isolating from change: By minimizing coupling in this way, our classes adhere to another class design principle known as the Dependency Inversion Principle (DIP)
 
+## Systems
+
+### Separation of Concerns
+* Clean code helps us achieve this (separation of concerns) at the lower levels of abstractions;
+* Software systems should separate the startup process, when the application objects are constructed and the dependencies are "wired" together, from  the runtime logic that takes over after startup;
+* The separation of concerns is one of the oldest and most important design techniques in our craft;
+* Lazy initialization/evaluation has a hard-coded dependency, and testing it can be a problem;
+* Hence, the global setup strategy (if there is one) is scattered across the application, with little modularity and often significant duplication;
+
+### Separation of Main
+* One way to separate construction from use is simply to move all aspects of construction to main;
+* The main function builds the objects necessary for the system, then passes them to the application, which simply uses them;
+* Use of Factories
+* Dependency Injection and Inversion of Control
+* Inversion of Control moves secondary responsibilities from an object to other objects that are dedicated to the purpose;
+* Instead, it should pass this responsibility to another "authoritative" mechanism, thereby inverting control;
+
+### Scaling Up
+* Software systems are unique compared to physical systems. Their architectures can grow incrementally, IF we maintain the proper separation of concerns;
