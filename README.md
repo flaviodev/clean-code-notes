@@ -135,3 +135,6 @@ Fast, Independent, Repeatable, Self-Validating, Timely
 
 ### Scaling Up
 * Software systems are unique compared to physical systems. Their architectures can grow incrementally, IF we maintain the proper separation of concerns;
+* Cross-Cutting Concerns
+* Proxies 
+* Pure Java AOP Frameworks 
