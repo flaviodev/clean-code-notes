@@ -138,3 +138,6 @@ Fast, Independent, Repeatable, Self-Validating, Timely
 * Cross-Cutting Concerns
 * Proxies 
 * Pure Java AOP Frameworks 
+* Cross-cutting concerns: persistence, transactions, security, caching, failover
+* An Optimal system architecture consists of modularized domains of concern, each fo which is implemented with Plain Old Java (or other) Objects. The different domains are integrated, together with minimally invasive Aspects or Aspect-like tools. This architecture can be test-driven, just like the code.
+* 
