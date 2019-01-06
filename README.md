@@ -138,6 +138,27 @@ Fast, Independent, Repeatable, Self-Validating, Timely
 * Cross-Cutting Concerns
 * Proxies 
 * Pure Java AOP Frameworks 
+
+### Cross-cutting concerns
 * Cross-cutting concerns: persistence, transactions, security, caching, failover
 * An Optimal system architecture consists of modularized domains of concern, each fo which is implemented with Plain Old Java (or other) Objects. The different domains are integrated, together with minimally invasive Aspects or Aspect-like tools. This architecture can be test-driven, just like the code.
-* 
+* The agility provided by a POJO system with modularized concerns allows ws to make optimal, just-in-time decisions, based on the most recent knowledge. The complexity of these decisions is also reduced.
+* Standards make it easier to reuse ideas and components, recruit people with relevant experience, encapsulate good ideas, and wire components together. However, the process of creating standards can sometimes take too long for industry to wait, and some standards lose touch with the real needs of the adopters they are intended to serve.
+* A good DSL minimizes the "communication gap" between a domain concept and the code that implements it, just as agile practices optimize the communications within a team and with the project's stakeholders. 
+* Domain-Specific Languages allow levels of abstraction and all domains in the application to be expressed as POJOs, from high-level policy to low-level details.
+
+## Emergence
+
+* Many of us feel that Kent Beck's four rules of Simple Design are of significant help in creating well-designed software:
+- Runs all the tests
+- Contains no duplication
+- Express the intent of the programmer
+- Minimizes the number of classes and methods
+
+### Run All the Tests
+* First and foremost, a design must produce a system that acts as intended.
+* A system that is comprehensively tested and passes all of its tests all of the time is a testable system.
+
+
+
+
