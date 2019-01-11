@@ -147,6 +147,9 @@ Fast, Independent, Repeatable, Self-Validating, Timely
 * A good DSL minimizes the "communication gap" between a domain concept and the code that implements it, just as agile practices optimize the communications within a team and with the project's stakeholders. 
 * Domain-Specific Languages allow levels of abstraction and all domains in the application to be expressed as POJOs, from high-level policy to low-level details.
 
+## AspectJ
+* The pure Java approaches provided by Spring AOP and JBoss AOP are sufficient for 80–90 percent of the cases where aspects are most useful.
+
 ## Emergence
 
 * Many of us feel that Kent Beck's four rules of Simple Design are of significant help in creating well-designed software:
