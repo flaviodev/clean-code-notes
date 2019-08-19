@@ -162,8 +162,12 @@ Fast, Independent, Repeatable, Self-Validating, Timely
 * First and foremost, a design must produce a system that acts as intended.
 * A system that is comprehensively tested and passes all of its tests all of the time is a testable system.
 * Arguably, a system that cannot be verified should never be deployed.
+
+### Refactoring
+* Refactoring depends on that a system is fully testable.
 * For each few lines of code we add, we pause and reflect on the new design.
 * The fact that we have these tests eliminates the fear that cleaning up the code will break it!
-
+* Eliminate duplication, ensure expressiveness, and minimize the number of classes and methods.
+* Duplication is the primary enemy of a well-designed system.
 
 
