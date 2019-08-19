@@ -161,6 +161,7 @@ Fast, Independent, Repeatable, Self-Validating, Timely
 ### Run All the Tests
 * First and foremost, a design must produce a system that acts as intended.
 * A system that is comprehensively tested and passes all of its tests all of the time is a testable system.
+* Arguably, a system that cannot be verified should never be deployed.
 
 
 
