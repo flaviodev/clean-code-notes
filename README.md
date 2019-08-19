@@ -162,7 +162,8 @@ Fast, Independent, Repeatable, Self-Validating, Timely
 * First and foremost, a design must produce a system that acts as intended.
 * A system that is comprehensively tested and passes all of its tests all of the time is a testable system.
 * Arguably, a system that cannot be verified should never be deployed.
-
+* For each few lines of code we add, we pause and reflect on the new design.
+* The fact that we have these tests eliminates the fear that cleaning up the code will break it!
 
 
 
